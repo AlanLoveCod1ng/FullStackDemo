@@ -9,7 +9,7 @@ import org.studyeasy.interfaces.Engine;
 @Component("swift")
 public class Swift implements Car {
     @Autowired
-    @Qualifier(value = "V8Engine")
+    @Qualifier(value = "engineType")
     Engine engine;
 //    Corolla(Engine v8){
 //        v8.setType("New V8");

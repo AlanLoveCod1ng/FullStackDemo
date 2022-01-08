@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component("corolla")
 public class Corolla implements Car {
     @Autowired
-    @Qualifier(value = "V6Engine")
+    @Qualifier(value = "engineType")
     Engine engine;
 //    Corolla(Engine v8){
 //        v8.setType("New V8");
